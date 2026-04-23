@@ -1,0 +1,25 @@
+:root {
+  --bg-color: #a0c6ff;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  color: #333;
+  background: linear-gradient(#8ac9d6, #6FED53);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.titulo {
+  color: rgb(255, 255, 255); 
+  -webkit-text-stroke: 0.5px rgb(0, 0, 0); 
+}
+
+card {
+  background-color: beige;
+}
+
+::-webkit-scrollbar {
+  display: none; 
+}
